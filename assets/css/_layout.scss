@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif; /* fonte sem serifa */
+  font-size: 20px; /* tamanho da fonte, o tamnho padrão já é 16px */
+  background-color: $cor-primaria;
+}
+.container {
+  max-width: 550px; /* Largura máxima do container */
+  background-color: rgb(179, 25, 25);
+  /* border-width: 1px;
+      border-style: solid;
+      border-color: red; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 40x;
+  border-radius: calc($borda-arredondada * 5);
+}
